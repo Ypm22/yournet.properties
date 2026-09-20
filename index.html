@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Yournet Property Maintenance LLC provides professional property maintenance, landscaping, cleaning, pool maintenance, pressure washing, painting, sprinkler repairs and more throughout the Tampa Bay area.">
+<title>Yournet Property Maintenance LLC | Tampa Bay</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">Y</div>
+      <div><strong>YOURNET</strong><span>PROPERTY MAINTENANCE LLC</span></div>
+    </div>
+    <div class="contact-top">
+      <a href="tel:17273771675">727-377-1675</a>
+      <a href="mailto:yournet.properties@gmail.com">yournet.properties@gmail.com</a>
+      <span>St. Petersburg, FL · Tampa Bay Area</span>
+    </div>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#work">Our Work</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-cta" href="#contact">Get a Free Estimate</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">RESIDENTIAL · INVESTMENT PROPERTIES · AIRBNB · PROPERTY MANAGEMENT</p>
+    <h1>Property Maintenance<br><em>Done Right.</em></h1>
+    <p class="hero-copy">Reliable, professional property maintenance services throughout the Tampa Bay area.</p>
+    <div class="buttons">
+      <a class="button primary" href="tel:17273771675">Call 727-377-1675</a>
+      <a class="button secondary" href="#contact">Get a Free Estimate</a>
+    </div>
+    <div class="trust-row">
+      <span>✓ Reliable Service</span><span>✓ Multiple Services</span><span>✓ Quality Results</span><span>✓ Locally Owned</span>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow dark">OUR SERVICES</p>
+  <h2>One Company. Multiple Property Needs.</h2>
+  <p class="section-lead">From routine maintenance to bigger projects, Yournet can handle it.</p>
+  <div class="service-grid">
+    <article><div class="service-photo lawn"></div><h3>Landscaping & Lawn Care</h3><p>Mowing, cleanups, palms, mulch, rock, planting and more.</p></article>
+    <article><div class="service-photo pressure"></div><h3>Pressure Washing</h3><p>Driveways, patios, walkways and exterior surfaces.</p></article>
+    <article><div class="service-photo pool"></div><h3>Pool Maintenance</h3><p>Routine pool care, chemicals and maintenance services.</p></article>
+    <article><div class="service-photo cleaning"></div><h3>Cleaning & Airbnb Turnovers</h3><p>Residential and vacation-rental cleaning and reset services.</p></article>
+    <article><div class="service-photo paint"></div><h3>Painting</h3><p>Interior and exterior painting for homes and properties.</p></article>
+    <article><div class="service-photo sprinkler"></div><h3>Sprinkler Systems & Repairs</h3><p>Sprinkler repairs, heads, piping and system maintenance.</p></article>
+    <article><div class="service-photo gutters"></div><h3>Gutters & Exterior Maintenance</h3><p>Gutter work and general exterior property upkeep.</p></article>
+    <article><div class="service-photo general"></div><h3>General Property Maintenance</h3><p>One-off repairs, projects and ongoing property care.</p></article>
+  </div>
+</section>
+
+<section id="about" class="about section">
+  <div class="about-image"></div>
+  <div class="about-copy">
+    <p class="eyebrow dark">ABOUT YOURNET</p>
+    <h2>More Than Maintenance.<br>Peace of Mind.</h2>
+    <p>Yournet Property Maintenance LLC is a locally owned and operated company dedicated to keeping your property in top condition.</p>
+    <p>We work with homeowners, property managers, investment-property owners and Airbnb hosts to provide reliable, high-quality services with attention to detail.</p>
+    <div class="audiences">
+      <span>Residential Properties</span><span>Investment Properties</span><span>Airbnb Turnovers</span><span>Property Management</span>
+    </div>
+    <a class="button primary" href="#contact">Learn More About Us</a>
+  </div>
+</section>
+
+<section id="work" class="work section">
+  <p class="eyebrow">OUR WORK</p>
+  <h2>Results You Can See.</h2>
+  <p class="section-lead light">Add your real project photos here to show customers what Yournet can do.</p>
+  <div class="gallery">
+    <div class="gallery-placeholder">Landscaping</div>
+    <div class="gallery-placeholder">Pool Maintenance</div>
+    <div class="gallery-placeholder">Pavers</div>
+    <div class="gallery-placeholder">Pressure Washing</div>
+    <div class="gallery-placeholder">Cleaning</div>
+    <div class="gallery-placeholder">Painting</div>
+  </div>
+</section>
+
+<section id="contact" class="contact section">
+  <div>
+    <p class="eyebrow dark">LET'S GET STARTED</p>
+    <h2>Tell Us About Your Project.</h2>
+    <p>Send us the details and we'll get back to you about your estimate.</p>
+    <div class="contact-details">
+      <a href="tel:17273771675">📞 727-377-1675</a>
+      <a href="mailto:yournet.properties@gmail.com">✉ yournet.properties@gmail.com</a>
+      <span>📍 St. Petersburg, FL · Tampa Bay Area</span>
+    </div>
+  </div>
+  <form onsubmit="submitForm(event)">
+    <input required name="name" placeholder="Your Name">
+    <input required name="phone" placeholder="Phone Number">
+    <input name="email" type="email" placeholder="Email Address">
+    <input name="address" placeholder="Property Address">
+    <select required name="service">
+      <option value="">Service Needed</option>
+      <option>Landscaping & Lawn Care</option>
+      <option>Pressure Washing</option>
+      <option>Pool Maintenance</option>
+      <option>Cleaning / Airbnb</option>
+      <option>Painting</option>
+      <option>Sprinkler Repair</option>
+      <option>Gutters</option>
+      <option>General Property Maintenance</option>
+      <option>Other</option>
+    </select>
+    <textarea name="message" rows="5" placeholder="Tell us about the work you need"></textarea>
+    <button class="button primary" type="submit">Request an Estimate</button>
+    <p id="form-note" class="form-note"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <div><strong>YOURNET PROPERTY MAINTENANCE LLC</strong><span>Maintaining a Better Tomorrow</span></div>
+  <div class="footer-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
