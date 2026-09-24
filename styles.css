@@ -1,13 +1,1 @@
-.brand-logo {
-  width: 68px;
-  height: 68px;
-  object-fit: contain;
-  display: block;
-}
 
-@media(max-width:560px) {
-  .brand-logo {
-    width: 58px;
-    height: 58px;
-  }
-}
